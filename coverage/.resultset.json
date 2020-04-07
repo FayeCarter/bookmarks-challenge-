@@ -1,0 +1,45 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Alex/Documents/Makers/week4/bookmark-steve/bookmarks-challenge-/app.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/Alex/Documents/Makers/week4/bookmark-steve/bookmarks-challenge-/spec/features/app_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/Alex/Documents/Makers/week4/bookmark-steve/bookmarks-challenge-/spec/features/bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1586267726
+  }
+}
