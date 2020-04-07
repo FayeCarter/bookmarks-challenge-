@@ -19,6 +19,30 @@
           null
         ]
       },
+      "/Users/Alex/Documents/Makers/week4/bookmark-steve/bookmarks-challenge-/spec/bookmark_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/Alex/Documents/Makers/week4/bookmark-steve/bookmarks-challenge-/lib/bookmark.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/Alex/Documents/Makers/week4/bookmark-steve/bookmarks-challenge-/spec/features/app_spec.rb": {
         "lines": [
           1,
@@ -40,6 +64,6 @@
         ]
       }
     },
-    "timestamp": 1586267726
+    "timestamp": 1586268413
   }
 }
