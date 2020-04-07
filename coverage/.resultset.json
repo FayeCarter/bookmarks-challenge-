@@ -11,7 +11,9 @@
           null,
           null,
           1,
-          1,
+          2,
+          2,
+          2,
           null,
           null,
           null,
@@ -24,6 +26,7 @@
           1,
           null,
           1,
+          3,
           1,
           1,
           null,
@@ -37,8 +40,11 @@
       "/Users/Alex/Documents/Makers/week4/bookmark-steve/bookmarks-challenge-/lib/bookmark.rb": {
         "lines": [
           1,
+          null,
           1,
+          null,
           1,
+          4,
           null,
           null
         ]
@@ -60,10 +66,15 @@
           1,
           1,
           null,
+          null,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1586268413
+    "timestamp": 1586269188
   }
 }

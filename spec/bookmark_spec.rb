@@ -1,11 +1,12 @@
 require 'bookmark'
 
 describe Bookmark do
+  let(:bookmark) { Bookmark.new }
   it 'responds to #bookmark' do
-    expect(subject).to respond_to :all
+    expect(bookmark).to respond_to :all
   end
 
   it 'has bookmark' do
-    expect(subject.all).to include "www.google.co.uk"
+    expect(bookmark.all).to include "www.google.co.uk"
   end
 end
