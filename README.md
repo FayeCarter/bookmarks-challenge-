@@ -30,4 +30,15 @@ I want to be able to Filter bookmarks by tag
 As a maintainer of the system
 To protect the privacy of users
 I want Users to be restricted to managing only their own bookmarks
+
+```
+
+#Database instructions
+
+```
+connect to psql
+Create the database using the psql command CREATE DATABASE bookmark_manager;
+Connect to the database using the pqsl command \c bookmark_manager;
+Run the query we have saved in the file 01_create_bookmarks_table.sql
+
 ```

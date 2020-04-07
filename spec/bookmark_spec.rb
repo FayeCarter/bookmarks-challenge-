@@ -1,12 +1,20 @@
 require 'bookmark'
 
 describe Bookmark do
-  let(:bookmark) { Bookmark.new }
+  let(:bookmarks) { Bookmark.new }
   it 'responds to #bookmark' do
-    expect(bookmark).to respond_to :all
+    expect(bookmarks).to respond_to :all
   end
 
-  it 'has bookmark' do
-    expect(bookmark.all).to include "www.google.co.uk"
+
+
+  describe '.all' do
+    it 'returns a list of bookmarks' do
+   
+      expect(bookmarks).to include "http://makers.tech"
+      expect(bookmarks).to include "http://www.destroyallsoftware.com"
+      expect(bookmarks).to include "http://www.google.com"
+    end
   end
+
 end
