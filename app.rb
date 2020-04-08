@@ -8,7 +8,7 @@ class App < Sinatra::Base
 
   get '/bookmarks' do
     @bookmarks = Bookmark.all
-    erb :bookmarks
+    erb :'bookmarks/index'
   end
 
 # start the server if ruby file executed directly
