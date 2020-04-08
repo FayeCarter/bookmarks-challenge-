@@ -7,8 +7,7 @@ describe Bookmark do
   end
 
 
-
-  describe '.all' do
+  describe '#all' do
     it 'returns a list of bookmarks' do
       bookmarks = Bookmark.all
 
@@ -17,5 +16,4 @@ describe Bookmark do
       expect(bookmarks).to include("http://www.google.co.uk")
     end
   end
-
 end
