@@ -11,9 +11,9 @@ describe Bookmark do
   describe '.all' do
     it 'returns a list of bookmarks' do
    
-      expect(bookmarks).to include "http://makers.tech"
-      expect(bookmarks).to include "http://www.destroyallsoftware.com"
-      expect(bookmarks).to include "http://www.google.com"
+      expect(bookmarks::all).to include "http://makers.tech"
+      expect(bookmarks::all).to include "http://www.destroyallsoftware.com"
+      expect(bookmarks::all).to include "http://www.google.co.uk"
     end
   end
 

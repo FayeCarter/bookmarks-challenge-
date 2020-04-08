@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Steven/Documents/Git/bookmarks-challenge/app.rb": {
+      "/Users/FayeCarter/Documents/Makers_Academy/Week_4/bookmarks-challenge-/app.rb": {
         "lines": [
           1,
           null,
@@ -21,7 +21,7 @@
           null
         ]
       },
-      "/Users/Steven/Documents/Git/bookmarks-challenge/spec/bookmark_spec.rb": {
+      "/Users/FayeCarter/Documents/Makers_Academy/Week_4/bookmarks-challenge-/spec/bookmark_spec.rb": {
         "lines": [
           1,
           null,
@@ -37,16 +37,18 @@
           1,
           null,
           1,
-          0,
-          0,
+          1,
+          1,
           null,
           null,
           null,
           null
         ]
       },
-      "/Users/Steven/Documents/Git/bookmarks-challenge/lib/bookmark.rb": {
+      "/Users/FayeCarter/Documents/Makers_Academy/Week_4/bookmarks-challenge-/lib/bookmark.rb": {
         "lines": [
+          1,
+          null,
           1,
           null,
           1,
@@ -57,7 +59,7 @@
           null
         ]
       },
-      "/Users/Steven/Documents/Git/bookmarks-challenge/spec/features/app_spec.rb": {
+      "/Users/FayeCarter/Documents/Makers_Academy/Week_4/bookmarks-challenge-/spec/features/app_spec.rb": {
         "lines": [
           1,
           1,
@@ -67,7 +69,7 @@
           null
         ]
       },
-      "/Users/Steven/Documents/Git/bookmarks-challenge/spec/features/bookmarks_spec.rb": {
+      "/Users/FayeCarter/Documents/Makers_Academy/Week_4/bookmarks-challenge-/spec/features/bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -83,6 +85,6 @@
         ]
       }
     },
-    "timestamp": 1586276864
+    "timestamp": 1586353367
   }
 }
