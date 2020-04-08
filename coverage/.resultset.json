@@ -1,8 +1,9 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Steven/Documents/Git/bookmarks-challenge/app.rb": {
+      "/Users/Alex/Documents/Makers/week4/bookmark-steve/bookmarks-challenge-/app.rb": {
         "lines": [
+          1,
           1,
           null,
           1,
@@ -13,7 +14,6 @@
           1,
           2,
           2,
-          2,
           null,
           null,
           null,
@@ -21,43 +21,37 @@
           null
         ]
       },
-      "/Users/Steven/Documents/Git/bookmarks-challenge/spec/bookmark_spec.rb": {
+      "/Users/Alex/Documents/Makers/week4/bookmark-steve/bookmarks-challenge-/lib/bookmark.rb": {
         "lines": [
           1,
           null,
           1,
-          3,
-          1,
-          1,
+          5,
           null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          0,
-          0,
           null,
           null,
           null,
           null
         ]
       },
-      "/Users/Steven/Documents/Git/bookmarks-challenge/lib/bookmark.rb": {
+      "/Users/Alex/Documents/Makers/week4/bookmark-steve/bookmarks-challenge-/spec/bookmark_spec.rb": {
         "lines": [
           1,
           null,
           1,
+          1,
           null,
           1,
-          4,
+          1,
+          1,
+          1,
+          1,
+          null,
           null,
           null
         ]
       },
-      "/Users/Steven/Documents/Git/bookmarks-challenge/spec/features/app_spec.rb": {
+      "/Users/Alex/Documents/Makers/week4/bookmark-steve/bookmarks-challenge-/spec/features/app_spec.rb": {
         "lines": [
           1,
           1,
@@ -67,7 +61,7 @@
           null
         ]
       },
-      "/Users/Steven/Documents/Git/bookmarks-challenge/spec/features/bookmarks_spec.rb": {
+      "/Users/Alex/Documents/Makers/week4/bookmark-steve/bookmarks-challenge-/spec/features/bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -83,6 +77,6 @@
         ]
       }
     },
-    "timestamp": 1586276864
+    "timestamp": 1586352534
   }
 }
