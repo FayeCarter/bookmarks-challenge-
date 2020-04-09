@@ -5,11 +5,16 @@ feature "see a list of bookmarks" do
   end
 
   scenario "can see a url that is a bookmark" do
-    connection = PG.connect(dbname: 'bookmark_manager_test')
-
-    connection.exec("INSERT INTO bookmarks (url) VALUES('http://www.google.com');")
+    Bookmark.create("http://www.google.com")
 
     visit '/bookmarks'
     expect(page).to have_content "http://www.google.com"
+  end
+
+  scenario 'we can add new bookmarks' do
+    visit '/add_bookmark'
+    fill_in 'url', with: 'www.google.co.uk'
+    click_button 'Submit'
+    expect(page).to have_content 'www.google.co.uk'
   end
 end
