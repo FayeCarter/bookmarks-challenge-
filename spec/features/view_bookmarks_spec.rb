@@ -5,8 +5,8 @@ feature "see a list of bookmarks" do
   end
 
   scenario "can see a url that is a bookmark" do
-    Bookmark.create("http://www.google.com")
-
+    Bookmark.create(url: "http://www.google.com", title: "google.com")
+    
     visit '/bookmarks'
     expect(page).to have_content "http://www.google.com"
   end
