@@ -4,6 +4,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 gem 'sinatra'
 gem 'pg'
+gem 'sinatra-flash'
 
 group :test do
 gem 'capybara'
