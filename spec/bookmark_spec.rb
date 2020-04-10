@@ -12,9 +12,9 @@ describe Bookmark do
       Bookmark.create(url: 'http://www.destroyallsoftware.com', title: 'Destroy Software')
       Bookmark.create(url: 'http://www.google.com', title: 'Google.com')
 
-      expect(bookmarks).to include("http://www.makersacademy.com")
-      expect(bookmarks).to include("http://www.destroyallsoftware.com")
-      expect(bookmarks).to include("http://www.google.com")
+      expect(Bookmark.all).to include("http://www.makersacademy.com")
+      expect(Bookmark.all).to include("http://www.destroyallsoftware.com")
+      expect(Bookmark.all).to include("http://www.google.com")
     end
   end
 
