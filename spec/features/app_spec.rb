@@ -10,4 +10,9 @@ feature "Homepage to have content" do
     expect(page).to have_button "view"
   end
 
+  scenario "with add bookmarks button" do
+    visit '/'
+    expect(page).to have_button "add"
+  end
+
 end
