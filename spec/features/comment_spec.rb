@@ -1,4 +1,4 @@
-require 'persisted_data'
+require 'database_helpers'
 require 'comment'
 require 'bookmark'
 
