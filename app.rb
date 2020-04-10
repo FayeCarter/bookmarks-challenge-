@@ -15,6 +15,10 @@ class App < Sinatra::Base
     erb :add_bookmark
   end
 
+  post '/view' do
+    redirect '/bookmarks'
+  end
+  
   post '/bookmarks' do
     Bookmark.create(url: params[:url], title: params[:title])
     redirect '/bookmarks'
