@@ -1,5 +1,5 @@
-feature "infrastructure working" do
-  scenario "test infrastructure working hello world" do
+feature "Homepage to have content" do
+  scenario "index loads with welcome message" do
     visit '/'
     expect(page).to have_content "Hello world"
   end
