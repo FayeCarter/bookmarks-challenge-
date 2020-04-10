@@ -8,7 +8,7 @@ class App < Sinatra::Base
 
   get '/bookmarks' do
     @bookmarks = Bookmark.all
-    erb :bookmarks
+    erb :view_bookmarks
   end
 
   get '/add_bookmark' do
