@@ -41,7 +41,7 @@ class App < Sinatra::Base
   end
   
   patch '/bookmarks/:id' do
-    Bookmark.update(id: params[:id], title: params[:title], url: params[:url])
+    @bookmark = Bookmark.find(id: params[:id])
     redirect '/bookmarks'
   end
 
