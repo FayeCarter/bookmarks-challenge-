@@ -2,6 +2,8 @@ require 'sinatra/base'
 require './lib/bookmark'
 
 class App < Sinatra::Base
+  enable :sessions, :method_override
+
   get '/' do
     erb :index
   end
@@ -28,8 +30,8 @@ class App < Sinatra::Base
     redirect '/bookmarks'
   end
 
-  post '/delete' do
-    redirect '/bookmarks'
+  delete '/bookmarks/:id' do
+    p params
   end
   
 
