@@ -35,9 +35,9 @@ class App < Sinatra::Base
     redirect '/bookmarks'
   end
 
-  get '/bookmarks/:id' do
+  get '/bookmarks/:id/edit' do
     @bookmark_id = params[:id]
-    erb :edit
+    erb :'bookmarks/edit'
   end
   
 
