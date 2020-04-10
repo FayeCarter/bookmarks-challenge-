@@ -15,4 +15,9 @@ feature "Homepage to have content" do
     expect(page).to have_button "add"
   end
 
+  scenario "with delete bookmarks button" do
+    visit '/'
+    expect(page).to have_button "delete"
+  end
+
 end
