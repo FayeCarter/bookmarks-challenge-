@@ -5,3 +5,7 @@ def persisted_data(id:)
   result = connection.query("SELECT * FROM bookmarks WHERE id = #{id};")
   result.first
 end
+
+def persisted_data(table:, id:)
+  DatabaseConnection.query("SELECT * FROM #{table} WHERE id = '#{id}';")
+end
