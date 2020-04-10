@@ -28,5 +28,13 @@ class App < Sinatra::Base
     redirect '/bookmarks'
   end
 
+  post '/delete' do
+    redirect '/delete'
+  end
+  
+  get '/delete' do
+    erb :delete
+  end
+
   run! if app_file == $0
 end
