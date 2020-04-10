@@ -1,5 +1,11 @@
 require 'database_connection'
 
+if ENV['ENVIRONMENT'] == 'test'
+  DatabaseConnection.setup('bookmark_manager_test')
+else
+  DatabaseConnection.setup('bookmark_manager')
+end
+
 describe DatabaseConnection do
   describe '.setup' do
     it 'sets up a connection to a database through PG' do
