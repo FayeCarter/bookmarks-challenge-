@@ -1,6 +1,6 @@
 require 'sinatra/base'
 require './lib/bookmark'
-require './lib/database_connection'
+require './database_connection_setup'
 
 class App < Sinatra::Base
   enable :sessions, :method_override

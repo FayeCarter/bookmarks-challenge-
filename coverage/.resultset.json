@@ -135,6 +135,20 @@
           1,
           null,
           null,
+          1,
+          8,
+          null,
+          null
+        ]
+      },
+      "/Users/FayeCarter/Documents/Makers_Academy/Week_4/bookmarks-challenge-/database_connection_setup.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          0,
           null
         ]
       },
@@ -230,12 +244,6 @@
       "/Users/FayeCarter/Documents/Makers_Academy/Week_4/bookmarks-challenge-/spec/database_connection_spec.rb": {
         "lines": [
           1,
-          null,
-          1,
-          1,
-          null,
-          0,
-          null,
           null,
           1,
           1,
@@ -359,6 +367,6 @@
         ]
       }
     },
-    "timestamp": 1586513088
+    "timestamp": 1586513363
   }
 }
