@@ -11,6 +11,10 @@ class App < Sinatra::Base
     erb :view_bookmarks
   end
 
+  post '/add' do
+    redirect '/add_bookmark'
+  end
+
   get '/add_bookmark' do
     erb :add_bookmark
   end
