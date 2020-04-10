@@ -6,6 +6,7 @@ require 'sinatra/flash'
 
 class App < Sinatra::Base
   enable :sessions, :method_override
+  register Sinatra::Flash
 
   get '/' do
     erb :index
