@@ -8,7 +8,7 @@ feature "see a list of bookmarks" do
     Bookmark.create(url: "http://www.google.com", title: "google.com")
     
     visit '/bookmarks'
-    expect(page).to have_content "http://www.google.com"
+    expect(page).to have_content "google.com"
   end
 
 end
