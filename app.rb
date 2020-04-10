@@ -40,6 +40,10 @@ class App < Sinatra::Base
     erb :'bookmarks/edit'
   end
   
+  patch '/bookmarks/:id' do
+    p params
+    redirect('/bookmarks')
+  end
 
   run! if app_file == $0
 end
