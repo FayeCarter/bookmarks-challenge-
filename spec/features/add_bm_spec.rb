@@ -31,7 +31,7 @@ feature "add bookmarks" do
         click_button 'Submit'
   
         expect(current_path).to eq '/bookmarks'
-        expect(first('.bookmark')).to have_content 'this is a test comment on this bookmark'
+        expect(first('.bookmark')).to have_content 'This is a second comment'
       end
     end
   end
