@@ -50,5 +50,10 @@ class App < Sinatra::Base
     redirect '/bookmarks'
   end
 
+  get '/bookmarks/:id/comments/new' do
+    @bookmark_id = params[:id]
+    erb :'comments/new'
+  end
+
   run! if app_file == $0
 end
